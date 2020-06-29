@@ -1,0 +1,153 @@
+Info:2020/06/29 14:54:38 pgsql.go:17: pgsqlOpen
+Info:2020/06/29 14:56:51 redis.go:35: 11
+Info:2020/06/29 14:56:51 redis.go:42: connected_clients
+Info:2020/06/29 14:56:51 redis.go:35: 0
+Info:2020/06/29 14:56:51 redis.go:42: blocked_clients
+Info:2020/06/29 14:56:51 redis.go:35: 899496
+Info:2020/06/29 14:56:51 redis.go:42: used_memory
+Info:2020/06/29 14:56:51 redis.go:35: 878.41K
+Info:2020/06/29 14:56:51 redis.go:35: 840720
+Info:2020/06/29 14:56:51 redis.go:42: used_memory
+Info:2020/06/29 14:56:51 redis.go:35: 821.02K
+Info:2020/06/29 14:56:51 redis.go:35: 1018920
+Info:2020/06/29 14:56:51 redis.go:42: used_memory
+Info:2020/06/29 14:56:51 redis.go:35: 995.04K
+Info:2020/06/29 14:56:51 redis.go:35: 47104
+Info:2020/06/29 14:56:51 redis.go:42: used_memory
+Info:2020/06/29 14:56:51 redis.go:35: 46.00K
+Info:2020/06/29 14:56:51 redis.go:35: 840720
+Info:2020/06/29 14:56:51 redis.go:42: used_memory_rss
+Info:2020/06/29 14:56:51 redis.go:35: 821.02K
+Info:2020/06/29 14:56:51 redis.go:35: 1018920
+Info:2020/06/29 14:56:51 redis.go:42: used_memory_peak
+Info:2020/06/29 14:56:51 redis.go:35: 995.04K
+Info:2020/06/29 14:56:51 redis.go:35: 0
+Info:2020/06/29 14:56:51 redis.go:42: instantaneous_ops_per_sec
+Info:2020/06/29 14:56:51 redis.go:35: 0
+Info:2020/06/29 14:56:51 redis.go:42: rejected_connections
+Info:2020/06/29 14:56:51 redis.go:35: keys=1,expires=0,avg_ttl=0
+Info:2020/06/29 14:56:51 redis.go:42: db0.num
+Info:2020/06/29 14:56:51 redis.go:63: formated:  [
+ {
+  "metric": "redis.connected_clients",
+  "endpoint": "47.92.88.139",
+  "tags": "name=connected_clients",
+  "value": 11,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.blocked_clients",
+  "endpoint": "47.92.88.139",
+  "tags": "name=blocked_clients",
+  "value": 0,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.used_memory",
+  "endpoint": "47.92.88.139",
+  "tags": "name=used_memory",
+  "value": 899496,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.used_memory",
+  "endpoint": "47.92.88.139",
+  "tags": "name=used_memory",
+  "value": 840720,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.used_memory",
+  "endpoint": "47.92.88.139",
+  "tags": "name=used_memory",
+  "value": 1018920,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.used_memory",
+  "endpoint": "47.92.88.139",
+  "tags": "name=used_memory",
+  "value": 47104,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.used_memory_rss",
+  "endpoint": "47.92.88.139",
+  "tags": "name=used_memory_rss",
+  "value": 840720,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.used_memory_peak",
+  "endpoint": "47.92.88.139",
+  "tags": "name=used_memory_peak",
+  "value": 1018920,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.instantaneous_ops_per_sec",
+  "endpoint": "47.92.88.139",
+  "tags": "name=instantaneous_ops_per_sec",
+  "value": 0,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.rejected_connections",
+  "endpoint": "47.92.88.139",
+  "tags": "name=rejected_connections",
+  "value": 0,
+  "timestamp": 1593413811,
+  "step": 60
+ },
+ {
+  "metric": "redis.db0.num",
+  "endpoint": "47.92.88.139",
+  "tags": "name=db0.num",
+  "value": 1,
+  "timestamp": 1593413811,
+  "step": 60
+ }
+]
+Info:2020/06/29 14:56:52 GetPostUtil.go:43: {"err":""}
+ <nil>
+Info:2020/06/29 14:56:52 didi.go:55: redis数据提交返回
+{"err":""}
+
+Info:2020/06/29 14:56:52 GetPostUtil.go:56: Active connections: 3 
+server accepts handled requests
+ 5299 5299 12082 
+Reading: 0 Writing: 2 Waiting: 1 
+ <nil>
+Info:2020/06/29 14:56:52 nginx.go:15:  5299 5299 12082 
+Info:2020/06/29 14:56:52 nginx.go:49: formated:  [
+ {
+  "metric": "nginx.query_count",
+  "endpoint": "47.92.88.139",
+  "tags": "name=query_count",
+  "value": 5299,
+  "timestamp": 1593413812,
+  "step": 60
+ },
+ {
+  "metric": "nginx.err_count",
+  "endpoint": "47.92.88.139",
+  "tags": "name=err_count",
+  "value": 0,
+  "timestamp": 1593413812,
+  "step": 60
+ }
+]
+Info:2020/06/29 14:56:52 GetPostUtil.go:43: {"err":""}
+ <nil>
+Info:2020/06/29 14:56:52 didi.go:58: nginx数据提交返回
+{"err":""}
+

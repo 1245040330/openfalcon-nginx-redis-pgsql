@@ -1,0 +1,10 @@
+redis:
+  addr: "127.0.0.1:6379"
+  pass: ""
+pgsql:
+  port: "5432"
+  pass: "postgres"
+  dbname: "test"
+ip:  "47.92.88.139"
+api: "http://fengjie.info/api/collector/push"
+nginxStatus: "http://192.168.250.57/monitor/nginx_status"
